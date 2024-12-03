@@ -104,6 +104,9 @@ main {
 .list-links > li:nth-child(4) {
   background-color: #8ef061;
 }
+.list-links > li:nth-child(5) {
+  background-color: #ee82ee;
+}
 
 .list-links > li > a {
   text-decoration: none;
