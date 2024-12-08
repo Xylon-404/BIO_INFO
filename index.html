@@ -34,6 +34,12 @@
             color: #0dff00;
             text-shadow: 0 0 10px #0dff00, 0 0 20px #0dff00, 0 0 30px #0dff00;
         }
+        .skill-name {
+            font-size: 40px;
+            font-weight: bold;
+            color: #f0113d;
+            text-shadow: 0 0 10px #0dff00, 0 0 20px #0dff00, 0 0 30px #0dff00;
+        }                
 
         /* Hacker Terminal Styles */
         .hacker-console {
@@ -44,7 +50,7 @@
             border-radius: 15px;
             margin-bottom: 30px;
             box-shadow: 0 0 20px rgba(13, 255, 0, 0.7);
-            border: 3px solid #0dff00;
+            border: 3px solid #f0113d;
         }
 
         .command-line {
@@ -146,9 +152,9 @@
     <img src="XYLON.png" alt="profile" class="profile-image" />
                 <h1 class="owner-name">ཫABDULLHAཀ</</h1>
     <h1 class="profile-name"></h1>
-        <p class="summary">🚀Python Developer | 🐉 Programer</p>
+    <p class="output-line">🚀Python Developer | 🐉 Programer</p>
     <section class="about">
-      <span class="about__title">More about me:</span>
+      <span class="output-line">More about me:</span>
       <ul class="about__list">
         <li><a href="https://xylon-404.github.io/AI/"class="output-line">DARK SERIES</a></li>
         <li><a href="https://t.me/Abdullha_404"class="output-line">XYLON</a></li>
@@ -166,3 +172,38 @@
 
 </html>
 <style>body{background: url("No Profile.gif")
+    </style>
+
+    <div class="wrapper">
+        <div class="top-header">
+            <h1 class="skill-name">SKILL</h1>
+        </div>
+        <!-- Hacker Portal Console View -->
+        <div class="hacker-console">
+            <p class="command-line">~$ <span class="output-line">HACKING</span><span class="cursor-effect"></span></p>
+            <p class="command-line">~$ <span class="output-line">COADING</span></p>
+            <p class="command-line">~$ <span class="output-line">PROGRAMMING</span></p>
+            <p class="command-line">~$ <span class="output-line">NETWORKING</span></p>
+            <p class="command-line">~$ <span class="output-line">WEB DEVELOPMENT</span></p>
+            <p class="command-line">~$ <span class="output-line">APP DEVELOPMENT</span></p>
+            <p class="command-line">~$ <span class="output-line">PYTHON DEVELOPMENT</span></p>
+            <p class="command-line">~$ <span class="output-line"> HACKING</span></p>
+                
+            </div>
+        </div>
+
+        <div class="footer-info">
+            <p>POWERED BY <a href="https://t.me/Abdullha_404" target="_blank">DARK SERIES XYLON</a></p>
+        </div>
+    </div>
+
+    <script>
+        // JavaScript for the terminal cursor animation
+        let cursor = document.querySelector('.cursor-effect');
+        setInterval(() => {
+            cursor.style.visibility = cursor.style.visibility === 'visible' ? 'hidden' : 'visible';
+        }, 500);
+    </script>
+
+</body>
+                  </html>
