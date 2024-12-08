@@ -7,25 +7,162 @@
   <link href="styles.css" rel="stylesheet"/>
   <title>DARK_SERIES_XYLON</title>
 </head>
+   <style>
+        /* General Styles */
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: #e0e0e0;
+        }
+
+        .wrapper {
+            width: 90%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .top-header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .owner-name {
+            font-size: 40px;
+            font-weight: bold;
+            color: #0dff00;
+            text-shadow: 0 0 10px #0dff00, 0 0 20px #0dff00, 0 0 30px #0dff00;
+        }
+
+        /* Hacker Terminal Styles */
+        .hacker-console {
+            background-color: #1a1a1a;
+            color: #0dff00;
+            font-family: 'Courier New', Courier, monospace;
+            padding: 30px;
+            border-radius: 15px;
+            margin-bottom: 30px;
+            box-shadow: 0 0 20px rgba(13, 255, 0, 0.7);
+            border: 3px solid #0dff00;
+        }
+
+        .command-line {
+            color: #0dff00;
+        }
+
+        .output-line {
+            font-weight: bold;
+            animation: rainbow-text 4s ease-in-out infinite;
+        }
+
+        .output-line:nth-child(even) {
+            animation: rainbow-text-reverse 5s ease-in-out infinite;
+        }
+
+        .cursor-effect {
+            display: inline-block;
+            width: 12px;
+            height: 20px;
+            background-color: #0dff00;
+            animation: blink-effect 0.8s infinite;
+        }
+
+        .terminal-buttons {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+
+        .terminal-btn {
+            display: inline-block;
+            background-color: #333;
+            color: #fff;
+            padding: 12px 25px;
+            margin: 8px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 18px;
+            transition: all 0.3s ease;
+            border: 2px solid #0dff00;
+            box-shadow: 0 0 12px rgba(13, 255, 0, 0.7);
+        }
+
+        .terminal-btn:hover {
+            background-color: #ff007f;
+            box-shadow: 0 0 25px rgba(255, 0, 127, 0.7);
+        }
+
+        .footer-info {
+            text-align: center;
+            margin-top: 50px;
+            color: #ff007f;
+            text-shadow: 0 0 12px #ff007f, 0 0 24px #ff007f, 0 0 36px #ff007f;
+        }
+
+        .footer-info a {
+            color: #ff007f;
+            text-decoration: none;
+            text-shadow: 0 0 12px #ff007f, 0 0 24px #ff007f, 0 0 36px #ff007f;
+        }
+
+        @keyframes blink-effect {
+            50% {
+                background-color: transparent;
+            }
+        }
+
+        @keyframes rainbow-text {
+            0% { color: #ff007f; }
+            14% { color: #ff8000; }
+            28% { color: #ffff00; }
+            42% { color: #80ff00; }
+            57% { color: #00ff80; }
+            71% { color: #00ffff; }
+            85% { color: #8000ff; }
+            100% { color: #ff007f; }
+        }
+
+        @keyframes rainbow-text-reverse {
+            0% { color: #ff007f; }
+            14% { color: #8000ff; }
+            28% { color: #00ffff; }
+            42% { color: #00ff80; }
+            57% { color: #80ff00; }
+            71% { color: #ffff00; }
+            85% { color: #ff8000; }
+            100% { color: #ff007f; }
+        }
+    </style>
+</head>
+<body>
+        <div class="wrapper">
+        <div class="top-header">
+
+        </div>
 <body>
   <main>
     <img src="XYLON.png" alt="profile" class="profile-image" />
-    <h1 class="profile-name">ཫ ꕥ ABDULLHA  ꕥ ཀ</h1>
-    <p class="summary">🚀Python Developer | 🐉 Programer</p>
+                <h1 class="owner-name">ཫ ABDULLHA ཀ</</h1>
+    <h1 class="profile-name"></h1>
+    <p class="output-line">🚀Python Developer | 🐉 Programer</p>
     <section class="about">
       <span class="about__title">More about me:</span>
       <ul class="about__list">
-        <li><a href="https://xylon-404.github.io/FUCK/">DARK SERIES</a></li>
-        <li><a href="https://t.me/Abdullha_404">XYLON</a></li>
+        <li><a href="https://xylon-404.github.io/AI/"class="output-line">DARK SERIES</a></li>
+        <li><a href="https://t.me/Abdullha_404"class="output-line">XYLON</a></li>
       </ul>
     </section>
     <ul class="list-links">
-      <li><a href="https://xylon-404.github.io/AI/" target="_blank">DARK_AI</a></li>
-      <li><a href="https://t.me/Abdullha_404" target="_blank">Telegram</a></li>
-      <li><a href="https://www.facebook.com/profile.php?id=100089818537734" target="_blank">Facebook</a></li>
-      <li><a href="https://xylon-404.github.io/FUCK/" target="_blank">PERSONAL</a></li>
-      <li><a href="https://xylon-404.github.io/RED-SITE/" target="_blank">RED SITE</a></li>
+      <li><a href="https://github.com/xylon-404" target="_blank"class="output-line">Github</a></li>
+      <li><a href="https://t.me/Abdullha_404" target="_blank"class="output-line">Telegram</a></li>
+      <li><a href="https://xylon-404.github.io/AI/" target="_blank"class="output-line">DARK_AI</a></li>
+      <li><a href="https://xylon-404.github.io/FUCK/" target="_blank"class="output-line">PERSONAL</a></li>
+      <li><a href="https://xylon-404.github.io/RED-SITE/" target="_blank"class="output-line">RED SITE</a></li>
     </ul>
   </main>
 </body>
+
 </html>
+<style>body{background: url("No Profile.gif")
